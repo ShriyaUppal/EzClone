@@ -35,8 +35,6 @@ const AnalyticsChart = () => {
 
   const handleDateChange = (event) => {
     setDateRange(event.target.value);
-    // Update chart data based on selected date range here
-    // For demonstration, we'll just reset the data.
     if (event.target.value === "lastWeek") {
       setChartData({
         labels: ["Week 1", "Week 2", "Week 3", "Week 4"],
