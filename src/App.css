@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* Ensure full height for body */
+}
+
+#root {
+  height: 100%; /* Ensure the root div takes full height */
+}
+
+.scontainer{
+  background-color: #D9D9D9;
+  font-weight: bold;
+  font-size: large;
+  height: 100%;
+}

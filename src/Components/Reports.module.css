@@ -1,0 +1,34 @@
+.ReportHeading {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.mainContent {
+  margin-top: 109px;
+}
+
+.reportDropdown {
+  width: 150px; 
+  height: 35px; 
+  background-color: #d9d9d9; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  padding: 5px; 
+  margin-right: 10px; 
+}
+
+.generateButton {
+  background-color: #188a97;
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s; 
+}
+
+.generateButton:hover {
+  background-color: #12565e; 
+}

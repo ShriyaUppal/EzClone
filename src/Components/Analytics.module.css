@@ -1,0 +1,52 @@
+.analyticsHeading {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: row; /* Keep the flex direction as row */
+  align-items: center; /* Center align items vertically */
+  justify-content: flex-start; /* Align items to the left */
+  margin: 20px 50px; /* Center the container */
+  width: 50%; /* Set a fixed width */
+  max-height: 400px; /* Limit the maximum height */
+}
+
+.selectDate {
+  width: 120px;
+  height: 40px;
+  background-color: #d9d9d9;
+  margin-left: 5px; /* Space between the select and chart */
+}
+
+.chart {
+  width: 100%; /* Ensure chart takes full width */
+  max-height: 400px; /* Limit the maximum height of the chart */
+}
+
+.widgets {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+  font-size: x-large;
+  font-weight: 500;
+  width: max-content;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.widget {
+  background-color: #d9d9d9;
+  padding: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  text-align: center;
+  width: 25%; /* Adjust width as needed */
+}
